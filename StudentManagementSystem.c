@@ -9,7 +9,7 @@
 #define SIZE 50
 
 /*******************************************************************************
- *						      Global Definitions					           *
+ *	                     Global Definitions			               *
  *******************************************************************************/
 
 struct student{
@@ -31,7 +31,7 @@ enum menuChoices{
 struct node *head = NULL;  /* Head Initialization */
 
 /*******************************************************************************
- *						   	 Functions Prototype			     			   *
+ *			     Functions Prototype			       *
  *******************************************************************************/
 
 void addStudent(const struct student *const ptr);
@@ -43,7 +43,7 @@ void searchHighestGPA(void);
 void deleteStudent(int id);
 
 /*******************************************************************************
- *				             	 Main Logic					   	               *
+ *			       	  Main Logic		               	       *
  *******************************************************************************/
 
 int main(void){
@@ -116,7 +116,7 @@ int main(void){
 }
 
 /*******************************************************************************
- *						      Function Definitions			    			   *
+ *			     Function Definitions			       *
  *******************************************************************************/
 
 void addStudent(const struct student *const ptr){
